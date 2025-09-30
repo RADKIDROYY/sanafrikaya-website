@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Extras — San Afrikaya</title>
+  <meta name="description" content="Menu table, interactive HTML elements and microcontent demonstrations." />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <h1 class="site-title">San Afrikaya</h1>
+      <nav aria-label="Primary" class="primary-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="media.html">Media</a></li>
+          <li><a href="extras.html" aria-current="page">Extras</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="container site-main">
+    <section class="card">
+      <h2>Weekly Specials</h2>
+      <div class="table-wrapper">
+        <table>
+          <caption>Specials of the Week</caption>
+          <thead>
+            <tr>
+              <th scope="col">Day</th>
+              <th scope="col">Dish</th>
+              <th scope="col">Price</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><th scope="row">Monday</th><td>Fufu &amp; Egusi</td><td>$7.99</td></tr>
+            <tr><th scope="row">Tuesday</th><td>Garba</td><td>$10.50</td></tr>
+            <tr><th scope="row">Friday</th><td>Chef's Special (Injera Plate)</td><td>$12.00</td></tr>
+          </tbody>
+          <tfoot>
+            <tr><th scope="row" colspan="2">Average Price</th><td>$10.16</td></tr>
+          </tfoot>
+        </table>
+      </div>
+    </section>
+
+    <section class="card">
+      
+      <details>
+        <summary>What makes our food special?</summary>
+        <p>We blend local produce with classic recipes and slow-cooking techniques.</p>
+      </details>
+
+      <dialog open>
+        <p>This is an open &lt;dialog&gt; element for demonstration purposes.</p>
+      </dialog>
+    </section>
+
+    <section class="card">
+      <h2>Progress & Meter</h2>
+      <p>Order preparation: <progress value="45" max="100">45%</progress></p>
+      <p>Customer satisfaction estimate: <meter min="0" max="100" low="50" high="90" optimum="95" value="82">82%</meter></p>
+    </section>
+
+    <section class="card">
+     <p>We're excited to announce new additions to our fall menu, featuring seasonal ingredients and traditional recipes from Southern Africa.</p>
+        <details>
+          <summary>Read more...</summary>
+          <h4>What's Coming:</h4>
+          <dl>
+            <dt>Bobotie</dt>
+            <dd>South African spiced mince with egg topping—comfort food at its finest</dd>
+            
+            <dt>Peri-Peri Chicken Wings</dt>
+            <dd>Mozambique-style grilled wings with our homemade peri-peri sauce</dd>
+            
+            <dt>Malva Pudding</dt>
+            <dd>Sweet, sticky South African dessert with apricot jam and cream</dd>
+            
+            <dt>Bunny Chow</dt>
+            <dd>Durban street food—curry served in hollowed-out bread loaf</dd>
+          </dl>
+          <p>Mark your calendars for <time datetime="2025-10-01">October 1st</time> when these dishes officially join our menu. Early tasters welcome during our preview week!</p>
+        </details>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2025 San Afrikaya.</p>
+    </div>
+  </footer>
+</body>
+</html>

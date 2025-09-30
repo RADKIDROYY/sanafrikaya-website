@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Media — San Afrikaya</title>
+  <meta name="description" content="Photos, ambient audio and a cooking demo video." />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <h1 class="site-title">San Afrikaya</h1>
+      <nav aria-label="Primary" class="primary-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="media.html" aria-current="page">Media</a></li>
+          <li><a href="extras.html">Extras</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="container site-main">
+    <section class="card">
+      <h2>Gallery</h2>
+      <figure>
+        <picture>
+          <source srcset="assets/images/chef.jpg" media="(min-width:1000px)">
+          <source srcset="assets/images/chef.jpg" media="(min-width:600px)">
+          <img src="assets/images/chef.jpg" alt="Chef preparing a traditional African dish">
+        </picture>
+        <figcaption>Chef preparing traditional dishes.</figcaption>
+      </figure>
+    </section>
+
+    <section class="card">
+      <h2>Ambience</h2>
+      <p>Play a short ambience track from the restaurant:</p>
+      <audio controls>
+        <source src="assets/audio/ambience.mp3" type="audio/mpeg">
+        Your browser does not support audio playback.
+      </audio>
+    </section>
+
+    <section class="card">
+      <h2>Cooking Demo (Captions Included)</h2>
+      <video controls width="720" poster="assets/images/hero-medium.jpg">
+        <source src="assets/videos/cooking-demo.mp4" type="video/mp4">
+        <track src="assets/captions/sample.vtt" kind="captions" srclang="en" label="English" default>
+        Sorry, your browser does not support the video element.
+      </video>
+      <p class="mt-2">Use the CC button in the player to view captions (if your browser exposes it).</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2025 San Afrikaya.</p>
+    </div>
+  </footer>
+</body>
+</html>
